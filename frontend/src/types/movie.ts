@@ -1,5 +1,5 @@
 export type Movie = {
-    id: string;
+    id: number;
     title: string;
     score: number;
     count: number;
@@ -12,6 +12,7 @@ export type MoviePage = {
     totalPages: number;
     totalElements: number;
     size: number;
+    number: number;
     first: boolean;
     numberOfElements: number;
     empty: boolean;
